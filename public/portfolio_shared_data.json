@@ -21,7 +21,8 @@
         "class": "fab fa-linkedin"
       }
     ],
-    "image": "./Me/portrait1.jpg"
+    "image": "./Me/portrait1.jpg",
+    "emailaddress": "mailto:daniel.e.munro@gmail.com"
   },
   "skills": {
     "icons": [

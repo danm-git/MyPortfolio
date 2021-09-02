@@ -94,6 +94,8 @@ class ProjectDetailsModal extends Component {
               ) : null}
             </h3>
             <p className="modal-description">{description}</p>
+            <a className="projectDemo" target="_blank" href="https://master.d1by1l9f7e8bx7.amplifyapp.com/">Demo This Code</a>
+            <a className="projectGit" target="_blank" href="https://github.com/danm-git/TicketBlock">GitHub Repo</a>
             <div className="col-md-12 text-center">
               <ul className="list-inline mx-auto">{tech}</ul>
             </div>
@@ -102,6 +104,7 @@ class ProjectDetailsModal extends Component {
       </Modal>
     );
   }
+  
 }
 
 export default ProjectDetailsModal;

@@ -1,215 +1,216 @@
 {
-    "basic_info": {
-      "name": "Daniel Munro",
-      "titles": [ "Welcome to my page!", "Full Stack Developer", "Blockchain Developer", "17 Years Industry Experience", "App Developer", "Lifetime Learner" ],
-      "social": [
-        {
-          "name": "github",
-          "url": "https://github.com/danm-git",
-          "class": "fab fa-github"
-        },
-        {
-          "name": "linkedin",
-          "url": "https://www.linkedin.com/in/daniel-e-munro/",
-          "class": "fab fa-linkedin"
-        }
-      ],
-      "image": "myProfile.jpg"
-    },
-    "skills": {
-      "icons": [
-        {
-          "name": "Java",
-          "class": "devicon-java-plain",
-          "level": "60"
-        },
-        {
-          "name": "Oracle",
-          "class": "devicon-oracle-original",
-          "level": "60"
-        },
-        {
-          "name": "Perl",
-          "class": "devicon-perl-plain",
-          "level": "60"
-        },
-        {
-          "name": "JavaScript",
-          "class": "devicon-javascript-plain",
-          "level": "70"
-        },
-        {
-          "name": "C#",
-          "class": "devicon-csharp-plain",
-          "level": "65"
-        },
-        {
-          "name": "MySql",
-          "class": "devicon-mysql-plain",
-          "level": "60"
-        },
-        {
-          "name": "AWS",
-          "class": "devicon-amazonwebservices-original",
-          "level": "60"
-        },
-        {
-          "name": "Python",
-          "class": "devicon-python-plain",
-          "level": "60"
-        },
-        {
-          "name": "Scala",
-          "class": "devicon-scala-plain",
-          "level": "60"
-        },
-        {
-          "name": "Spring",
-          "class": "devicon-spring-plain",
-          "level": "60"
-        },
-        {
-          "name": "Tomcat",
-          "class": "devicon-tomcat-line",
-          "level": "60"
-        },
-        {
-          "name": "Apache",
-          "class": "devicon-apache-plain",
-          "level": "60"
-        },
-        {
-          "name": "Confluence",
-          "class": "devicon-confluence-original",
-          "level": "60"
-        },
-        {
-          "name": "c++",
-          "class": "devicon-cplusplus-plain",
-          "level": "60"
-        },
-        {
-          "name": ".NET Core",
-          "class": "devicon-dotnetcore-plain",
-          "level": "60"
-        },
-        {
-          "name": "Intellij",
-          "class": "devicon-intellij-plain",
-          "level": "60"
-        },
-        {
-          "name": "HTML 5",
-          "class": "devicon-html5-plain",
-          "level": "95"
-        },
-        {
-          "name": "CSS 3",
-          "class": "devicon-css3-plain",
-          "level": "95"
-        },
-        {
-          "name": "Angular",
-          "class": "devicon-angularjs-plain",
-          "level": "80"
-        },
-        {
-          "name": "TypeScript",
-          "class": "devicon-typescript-plain",
-          "level": "90"
-        },
-        {
-          "name": "Sass",
-          "class": "devicon-sass-original",
-          "level": "75"
-        },
-        {
-          "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
-          "level": "85"
-        },
-        
-        
-        {
-          "name": "Jest",
-          "class": "devicon-jest-plain",
-          "level": "60"
-        },
-        {
-          "name": "Jenkins",
-          "class": "devicon-jenkins-line",
-          "level": "60"
-        },
-        {
-          "name": "Jira",
-          "class": "devicon-jira-plain",
-          "level": "60"
-        },
-        {
-          "name": "JQuery",
-          "class": "devicon-jquery-plain",
-          "level": "60"
-        },
-        {
-          "name": "Less",
-          "class": "devicon-less-plain-wordmark",
-          "level": "60"
-        },
-        {
-          "name": "Linux",
-          "class": "devicon-linux-plain",
-          "level": "60"
-        },
-        {
-          "name": "NodeJS",
-          "class": "devicon-nodejs-plain",
-          "level": "60"
-        },
-        {
-          "name": "npm",
-          "class": "devicon-npm-original-wordmark",
-          "level": "60"
-        },
-        {
-          "name": "PostgreSql",
-          "class": "devicon-postgresql-plain",
-          "level": "60"
-        },
-        {
-          "name": "docker",
-          "class": "devicon-docker-plain",
-          "level": "60"
-        },
-        {
-          "name": "Putty",
-          "class": "devicon-putty-plain",
-          "level": "60"
-        },
-        {
-          "name": "RedHat",
-          "class": "devicon-redhat-plain",
-          "level": "60"
-        },
-        {
-          "name": "React",
-          "class": "devicon-react-original",
-          "level": "60"
-        },
-        {
-          "name": "Trello",
-          "class": "devicon-trello-plain",
-          "level": "60"
-        },
-        {
-          "name": "Unix",
-          "class": "devicon-unix-original",
-          "level": "60"
-        },
-        {
-          "name": "Visual Studio",
-          "class": "devicon-visualstudio-plain",
-          "level": "60"
-        }
-      ]
-    }
+  "basic_info": {
+    "name": "Daniel Munro",
+    "titles": [
+      "Welcome to my page!",
+      "Full Stack Developer",
+      "Blockchain Developer",
+      "17 Years Industry Experience",
+      "App Developer",
+      "Lifetime Learner"
+    ],
+    "social": [
+      {
+        "name": "github",
+        "url": "https://github.com/danm-git",
+        "class": "fab fa-github"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/daniel-e-munro/",
+        "class": "fab fa-linkedin"
+      }
+    ],
+    "image": "myProfile.jpg"
+  },
+  "skills": {
+    "icons": [
+      {
+        "name": "Java",
+        "class": "devicon-java-plain",
+        "level": "60"
+      },
+      {
+        "name": "Oracle",
+        "class": "devicon-oracle-original",
+        "level": "60"
+      },
+      {
+        "name": "Perl",
+        "class": "devicon-perl-plain",
+        "level": "60"
+      },
+      {
+        "name": "JavaScript",
+        "class": "devicon-javascript-plain",
+        "level": "70"
+      },
+      {
+        "name": "C#",
+        "class": "devicon-csharp-plain",
+        "level": "65"
+      },
+      {
+        "name": "MySql",
+        "class": "devicon-mysql-plain",
+        "level": "60"
+      },
+      {
+        "name": "AWS",
+        "class": "devicon-amazonwebservices-original",
+        "level": "60"
+      },
+      {
+        "name": "Python",
+        "class": "devicon-python-plain",
+        "level": "60"
+      },
+      {
+        "name": "Scala",
+        "class": "devicon-scala-plain",
+        "level": "60"
+      },
+      {
+        "name": "Spring",
+        "class": "devicon-spring-plain",
+        "level": "60"
+      },
+      {
+        "name": "Tomcat",
+        "class": "devicon-tomcat-line",
+        "level": "60"
+      },
+      {
+        "name": "Apache",
+        "class": "devicon-apache-plain",
+        "level": "60"
+      },
+      {
+        "name": "Confluence",
+        "class": "devicon-confluence-original",
+        "level": "60"
+      },
+      {
+        "name": "c++",
+        "class": "devicon-cplusplus-plain",
+        "level": "60"
+      },
+      {
+        "name": ".NET Core",
+        "class": "devicon-dotnetcore-plain",
+        "level": "60"
+      },
+      {
+        "name": "Intellij",
+        "class": "devicon-intellij-plain",
+        "level": "60"
+      },
+      {
+        "name": "HTML 5",
+        "class": "devicon-html5-plain",
+        "level": "95"
+      },
+      {
+        "name": "CSS 3",
+        "class": "devicon-css3-plain",
+        "level": "95"
+      },
+      {
+        "name": "Angular",
+        "class": "devicon-angularjs-plain",
+        "level": "80"
+      },
+      {
+        "name": "TypeScript",
+        "class": "devicon-typescript-plain",
+        "level": "90"
+      },
+      {
+        "name": "Sass",
+        "class": "devicon-sass-original",
+        "level": "75"
+      },
+      {
+        "name": "Bootstrap",
+        "class": "devicon-bootstrap-plain",
+        "level": "85"
+      },
+
+      {
+        "name": "Jest",
+        "class": "devicon-jest-plain",
+        "level": "60"
+      },
+      {
+        "name": "Jenkins",
+        "class": "devicon-jenkins-line",
+        "level": "60"
+      },
+      {
+        "name": "Jira",
+        "class": "devicon-jira-plain",
+        "level": "60"
+      },
+      {
+        "name": "JQuery",
+        "class": "devicon-jquery-plain",
+        "level": "60"
+      },
+      {
+        "name": "Less",
+        "class": "devicon-less-plain-wordmark",
+        "level": "60"
+      },
+      {
+        "name": "Linux",
+        "class": "devicon-linux-plain",
+        "level": "60"
+      },
+      {
+        "name": "NodeJS",
+        "class": "devicon-nodejs-plain",
+        "level": "60"
+      },
+      {
+        "name": "npm",
+        "class": "devicon-npm-original-wordmark",
+        "level": "60"
+      },
+      {
+        "name": "PostgreSql",
+        "class": "devicon-postgresql-plain",
+        "level": "60"
+      },
+      {
+        "name": "docker",
+        "class": "devicon-docker-plain",
+        "level": "60"
+      },
+      {
+        "name": "Putty",
+        "class": "devicon-putty-plain",
+        "level": "60"
+      },
+      {
+        "name": "RedHat",
+        "class": "devicon-redhat-plain",
+        "level": "60"
+      },
+      {
+        "name": "React",
+        "class": "devicon-react-original",
+        "level": "60"
+      },
+      {
+        "name": "Trello",
+        "class": "devicon-trello-plain",
+        "level": "60"
+      },
+      {
+        "name": "Visual Studio",
+        "class": "devicon-visualstudio-plain",
+        "level": "60"
+      }
+    ]
   }
+}

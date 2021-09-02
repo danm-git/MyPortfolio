@@ -50,12 +50,15 @@ class Experience extends Component {
             >
               {work.title}
             </h3>
-            <h4
-              className="vertical-timeline-element-subtitle"
-              style={{ textAlign: "left" }}
-            >
-              {work.company}
-            </h4>
+            
+            <a className="workLink" target="_blank" href={work.link}>
+              <h4
+                className="vertical-timeline-element-subtitle"
+                style={{ textAlign: "left" }}
+              >
+                {work.company}
+              </h4>
+            </a>
             <div style={{ textAlign: "left", marginTop: "15px" }}>{tech}</div>
           </VerticalTimelineElement>
         );

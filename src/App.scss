@@ -257,7 +257,8 @@ header h1 {
 .vertical-timeline-element-date {
 	padding: 0 !important;
 	margin: 0 !important;
-	font-size: 14px !important;
+	font-size: 16px !important;
+	font-weight: 900;
 }
 
 @media only screen and (max-width: 1170px) {
@@ -270,6 +271,7 @@ header h1 {
 
 .modal-inside .modal-content {
 	background: white;
+	text-align: center;
 }
 
 .bars {
@@ -330,7 +332,7 @@ header h1 {
 	text-align: justify;
 	padding: 5px 5px 0 5px;
 	margin-bottom: 20px;
-	font-size: 12px;
+	font-size: 18px;
 }
 
 .awssld__next {
@@ -347,7 +349,11 @@ header h1 {
 
 #portfolio {
 	background: #efe1bd;
-	padding-bottom: 5%;
+	padding-bottom: 1%;
+}
+
+#portfolio .section-title {
+	color: white !important;
 }
 
 .portfolio-item {
@@ -440,3 +446,24 @@ footer a:focus {
 	border: 8px solid white;
 }
 
+#portfolio {
+	background: #1F1F1F;
+}
+.vertical-timeline-element-subtitle {
+	font-size: 18px;
+}
+
+.projectDemo {
+	font-size: 22px;
+	margin: 5%;
+}
+
+.projectGit {
+	font-size: 22px;
+	margin: 5%;
+}
+
+.workLink {
+	font-size: 22px;
+	cursor: pointer;
+}

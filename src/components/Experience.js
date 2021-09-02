@@ -100,6 +100,7 @@ class Experience extends Component {
             <a
               href="https://resource-web.s3.us-east-2.amazonaws.com/Daniel+Munro+Resume.pdf"
               target="_blank"
+              rel="noopener noreferrer"
               download
             >
               <img

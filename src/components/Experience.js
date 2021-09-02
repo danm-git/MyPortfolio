@@ -51,7 +51,7 @@ class Experience extends Component {
               {work.title}
             </h3>
             
-            <a className="workLink" target="_blank" href={work.link}>
+            <a className="workLink" target="_blank" rel="noopener noreferrer" href={work.link}>
               <h4
                 className="vertical-timeline-element-subtitle"
                 style={{ textAlign: "left" }}

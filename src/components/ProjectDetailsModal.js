@@ -12,6 +12,10 @@ class ProjectDetailsModal extends Component {
       var title = this.props.data.title;
       var description = this.props.data.description;
       var url = this.props.data.url;
+      var demo = this.props.data.demo;
+      var websiteLink = this.props.data.websiteLink;
+      var gitLink = this.props.data.gitLink;
+
       if (this.props.data.technologies) {
         var tech = technologies.map((icons, i) => {
           return (
@@ -94,8 +98,11 @@ class ProjectDetailsModal extends Component {
               ) : null}
             </h3>
             <p className="modal-description">{description}</p>
-            <a className="projectDemo" target="_blank" href="https://master.d1by1l9f7e8bx7.amplifyapp.com/">Demo This Code</a>
-            <a className="projectGit" target="_blank" href="https://github.com/danm-git/TicketBlock">GitHub Repo</a>
+            {!this.props.data.demo ? "" : <a className="projectDemo" target="_blank" rel="noopener noreferrer" href={this.props.data.demo}>Demo This Code</a>} 
+            {/* <a className="projectDemo" target="_blank" rel="noopener noreferrer" href="https://master.d1by1l9f7e8bx7.amplifyapp.com/">Demo This Code</a> */}
+            {!this.props.data.gitLink   ?  "" : <a className="projectGit" target="_blank" rel="noopener noreferrer" href={this.props.data.gitLink}>GitHub Repo</a> } 
+            {!this.props.data.websiteLink  ? "" : <a className="projectDemo" target="_blank" rel="noopener noreferrer" href={websiteLink}>Website</a>}             
+            {/* <a className="projectGit" target="_blank" rel="noopener noreferrer" href="https://github.com/danm-git/TicketBlock">GitHub Repo</a> */}
             <div className="col-md-12 text-center">
               <ul className="list-inline mx-auto">{tech}</ul>
             </div>
@@ -103,8 +110,7 @@ class ProjectDetailsModal extends Component {
         </div>
       </Modal>
     );
-  }
-  
+  }  
 }
 
 export default ProjectDetailsModal;

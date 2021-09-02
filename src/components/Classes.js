@@ -16,9 +16,9 @@ class Classes extends Component {
     };
 
     let detailsModalClose = () => this.setState({ detailsModalShow: false });
-    if (this.props.resumeProjects && this.props.resumeBasicInfo) {
+    if (this.props.resumeClasses && this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.classes;
-      var classes = this.props.resumeProjects.map(function (classes) {
+      var classes = this.props.resumeClasses.map(function (classes) {
         return (
           <div
             className="col-sm-12 col-md-6 col-lg-4"
@@ -27,7 +27,7 @@ class Classes extends Component {
           >
             <span className="portfolio-item d-block">
               <div className="foto" onClick={() => detailsModalShow(classes)}>
-                <div>
+                <div className="projContainer">
                   <img
                     src={classes.images[0]}
                     alt="classImages"
@@ -38,9 +38,9 @@ class Classes extends Component {
                       position: "relative",
                     }}
                   />
-                  <span className="project-date">{classes.startDate}</span>
+                  <span className="class-date">{classes.startDate}</span>
                   <br />
-                  <p className="project-title-settings mt-3">{classes.title}</p>
+                  <p className="class-title-settings mt-3">{classes.title}</p>
                 </div>
               </div>
             </span>
@@ -50,12 +50,12 @@ class Classes extends Component {
     }
 
     return (
-      <section id="portfolio">
-        <div className="col-md-12">
+      <section id="classes">
+        <div className="col-md-12 justify-content-md-center" >
           <h1 className="section-title" style={{ color: "black" }}>
             <span>{sectionName}</span>
           </h1>
-          <div className="col-md-12 mx-auto">
+          <div className="col-md-12 mx-auto ">
             <div className="row mx-auto">{classes}</div>
           </div>
           <ProjectDetailsModal
@@ -69,4 +69,4 @@ class Classes extends Component {
   }
 }
 
-export default Projects;
+export default Classes;

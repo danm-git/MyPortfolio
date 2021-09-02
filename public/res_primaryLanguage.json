@@ -16,10 +16,10 @@
       "startDate": "2021",
       "description": "This is a sandbox I am using to learn Blockchain.  So far I have created a DAN Token and faucet, and the start of a smart ticketing app!  This is deployed against the Ropsten Test Network if you want to try it out.",
       "images": ["images/Blockchain/F1large.jpg"],
-      "src": "https://master.d1by1l9f7e8bx7.amplifyapp.com/",
-      "technologies": [""
-
-      ]
+      "src": "",
+      "technologies": [""],
+      "gitLink": ["https://github.com/danm-git/TicketBlock"],
+      "demo": ["https://master.d1by1l9f7e8bx7.amplifyapp.com"]
     }
   ],
   "experience": [
@@ -122,7 +122,131 @@
       "years": "Graduated 2003",
       "mainTech": ["Student"],
       "technologies": [""],
-      "link": ["https://www.online.colostate.edu/degrees/computer-science-bachelors/"]
+      "link": [
+        "https://www.online.colostate.edu/degrees/computer-science-bachelors/"
+      ]
+    }
+  ],
+  "classes": [
+    {
+      "title": "BLOCKCHAIN SPECIALIZATION",
+      "startDate": "2021",
+      "description": "Blockchain Basics and Smart Contracts, Decentralized Applications (Dapps) on various Blockchain Platforms.",
+      "images": ["images/projects/blockSpecial.png"],
+      "src": "",
+      "technologies": [""],
+      "websiteLink":["https://www.coursera.org/specializations/blockchain"],
+      "gitLink":["https://github.com/danm-git/blockchain-basics"]
+    },
+    {
+      "title": "PROGRAMMING WITH GOOGLE GO SPECIALIZATION",
+      "startDate": "2021",
+      "description": "Class 1 - Getting Started with Go Class 2; - Functions, Methods, and Interfaces Class 3; - Concurrency in Go; ",
+      "images": ["images/projects/GoLang.png"],
+      "src": "",
+      "technologies": [""],
+      "websiteLink":["https://www.coursera.org/specializations/google-golang#courses"],
+      "gitLink":["https://github.com/danm-git/GoLang-getting-started"]
+    },
+    {
+      "title": "TYPESCRIPT - LEARN THE FUNDAMENTALS",
+      "startDate": "2021",
+      "description": "Understand basics of Typescript, Learn advanced types and use them, and Write classes and understand OOP principles.",
+      "images": ["images/projects/ts.png"],
+      "src": "",
+      "technologies": [""],
+      "websiteLink":["https://www.coursera.org/projects/rudi-hinds-typescript-learn-fundamentals"],
+      "gitLink":["https://github.com/danm-git/typescript-fundamentals/tree/master/typescript"]
+    },
+    {
+      "title": "CHAINLINK SMART CONTRACT DEVELOPER BOOTCAMP",
+      "startDate": "2021",
+      "description": "Wrote smart contracts using Solidity. Connected contracts to real-world data. Worked with Hardhat development environment.",
+      "images": ["images/projects/chainlink-bootcamp-badge.png"],
+      "src": "",
+      "technologies": [""],
+      "websiteLink":["https://chain.link/bootcamp"],
+      "gitLink":["https://github.com/danm-git/chainlink-bootcamp-hardhat"]
+    },
+    {
+      "title": "ETHEREUM BLOCKCHAIN DEVELOPER BOOTCAMP WITH SOLIDITY (2021)",
+      "startDate": "2021",
+      "description": "Building Solidity Projects in Remix. Become Proficient In Advanced Development With Truffle & Teams. Understand Blockchain and Web3 Technology.",
+      "images": ["images/projects/solid.png"],
+      "src": "",
+      "technologies": [""],
+      "websiteLink":["https://www.udemy.com/course/blockchain-developer/"],
+      "gitLink":["https://github.com/danm-git/solidity-bootcamp-udemy"]
+    },
+    {
+      "title": "CRYPTOZOMBIES - SOLIDITY",
+      "startDate": "2021",
+      "description": "Interactive Solidity Coding Lessons, Interactive Solidity Coding Lessons, Creating a DApp",
+      "images": ["images/projects/zombie.png"],
+      "src": "",
+      "technologies": [""],
+      "websiteLink":["https://cryptozombies.io/"],
+      "gitLink":[""]
+    },
+    {
+      "title": "SCALA - ROCK THE JVM",
+      "startDate": "2021",
+      "description": "Advanced Scala & Functional Programming, Scala 3 & Functional Programming Essentials, Scala at Light Speed, and Akka Essentials with Scala",
+      "images": ["images/projects/RockTheJVM.jpg"],
+      "src": "",
+      "technologies": [""],
+      "websiteLink":["https://rockthejvm.com/"],
+      "gitLink":["https://github.com/danm-git/jvm-advanced-scala"]
+    },
+    {
+      "title": "NATURAL LANGUAGE PROCESSING (NLP)",
+      "startDate": "2021",
+      "description": "Sentiment analysis, Summarization, dialogue state tracking. Conversational chat-bot that assists with searching on StackOverflow. Part of the Advanced Machine Learning Specialization.",
+      "images": ["images/projects/nlp.png"],
+      "src": "",
+      "technologies": [""],
+      "websiteLink":["https://www.coursera.org/learn/language-processing"],
+      "gitLink":["https://github.com/danm-git/natural-language-processing"]
+    },
+    {
+      "title": "DEEP LEARNING A-Z AND ARTIFICIAL INTELLIGENCE A-Z",
+      "startDate": "2021",
+      "description": "Artificial, Convolutional, and Recurrent Neural Networks.  Make a virtual Self Driving Car using Deep Q-Learning.  Building an AI to win in a simple game.",
+      "images": ["images/projects/AI.jpg"],
+      "src": "",
+      "technologies": [""],
+      "websiteLink":["https://www.udemy.com/course/deeplearning/"],
+      "gitLink":["https://github.com/danm-git/deep-learning-classes"]
+    },
+    {
+      "title": "MATHEMATICS FOR MACHINE LEARNING: LINEAR ALGEBRA",
+      "startDate": "2021",
+      "description": "Vectors are objects that move around space, Matrices in Linear Algebra, Eigenvalues and Eigenvectors.",
+      "images": ["images/projects/math_class.png"],
+      "src": "",
+      "technologies": [""],
+      "websiteLink":["https://www.coursera.org/learn/linear-algebra-machine-learning"],
+      "gitLink":[""]
+    },
+    {
+      "title": "CHATBOT - DIALOGFLOW",
+      "startDate": "2021",
+      "description": "Chatbot for Website with React and Node.js interacting with DialogFlow.  Use of nodejs, react, Heroku and GIT. Interacting and customizing NLP with DialogFlow.",
+      "images": ["images/projects/chatbot.png"],
+      "src": "",
+      "technologies": [""],
+      "websiteLink":[""],
+      "gitLink":["https://github.com/danm-git/DialogflowReactbot"]
+    },
+    {
+      "title": "BLAZOR BATTLES!",
+      "startDate": "2021",
+      "description": "Blazor WebAssembly Full Stack Bootcamp with .NET 5.  Build a complete web application with Blazor WebAssembly.  Forms in Blazor WebAssembly with screen Validation.",
+      "images": ["images/projects/blazor.png"],
+      "src": "",
+      "technologies": [""],
+      "websiteLink":[""],
+      "gitLink":["https://github.com/danm-git/BlazorBattles"]
     }
   ]
 }

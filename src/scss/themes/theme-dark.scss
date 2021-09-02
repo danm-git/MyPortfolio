@@ -32,6 +32,11 @@ body[data-theme="dark"] {
       color: white;
    }
 
+   .class-date {
+      background-color: #918e97;
+      color: white;
+   }
+
    header {
       background-color: #494949;
       h1 {
@@ -62,6 +67,22 @@ body[data-theme="dark"] {
          background: #6d6d6d;
       }
       .project-title-settings {
+         color: white;
+      }
+      .class-title-settings {
+         color: white;
+      }
+   }
+
+   #classes {
+      background: #5b5b5b;
+      .section-title {
+         color: white !important;
+      }
+      .foto div {
+         background: #6d6d6d;
+      }
+      .class-title-settings {
          color: white;
       }
    }

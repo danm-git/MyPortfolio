@@ -13,6 +13,7 @@ class About extends Component {
       var sectionName = this.props.resumeBasicInfo.section_name.about;
       var hello = this.props.resumeBasicInfo.description_header;
       var about = this.props.resumeBasicInfo.description;
+      var newText = about.split("\n").map((str) => <p>{str}</p>);
     }
 
     return (
@@ -23,24 +24,13 @@ class About extends Component {
           </h1>
           <div className="row center mx-auto mb-5">
             <div className="col-md-4 mb-5 center">
-              <div className="polaroid">
+              <div className="polaroidAbout">
                 <span style={{ cursor: "auto" }}>
                   <img
-                    height="250px"
+                    height="500px"
+                    width="380px"
                     src={profilepic}
                     alt="Avatar placeholder"
-                  />
-                  <Icon
-                    icon={angularIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={reactIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={vueIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                 </span>
               </div>
@@ -72,15 +62,15 @@ class About extends Component {
                     className="card-body font-trebuchet text-justify ml-3 mr-3"
                     style={{
                       height: "auto",
-                      fontSize: "132%",
-                      lineHeight: "200%",
+                      fontSize: "155%",
+                      lineHeight: "150%",
                     }}
                   >
+                    <div class="AboutMe"></div>
+                    {hello}
                     <br />
-                    <span className="wave">{hello} :) </span>
                     <br />
-                    <br />
-                    {about}
+                    {newText}
                   </div>
                 </div>
               </div>

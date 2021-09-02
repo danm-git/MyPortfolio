@@ -1,7 +1,7 @@
 {
   "basic_info": {
-    "description_header": "Hi",
-    "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+    "description_header": "Hello and welcome to my Page!",
+    "description": "I love hiking, traveling, running but mostly spending time with my family and friends. I was born in Boulder, Colorado and grew up just outside in the town of Broomfield. I attended Colorado State University where I met my future wife, Linnia. \n \n After college, Linnia and I moved to Portland, OR and 2 years later she started Veterinary school at Oregon State University. We spent 2 years in Salem, OR followed by 2 years in Corvallis, OR where Linnia became a veterinarian! \n \n After graduation we decided to live in New York City and travel the world. We found a small apartment on the Upper West Side of Manhattan and in the end, we stayed for 5 fun filled years. \n \n We then decided to start a family. We moved out to Huntington, Long Island for 1 year before moving back to Colorado to be closer to grandparents.  We settled in a house north of Denver and now have 2 young energetic boys, a dog named Yeppi Queso, and a steady stream of foster kittens and dogs. \n \n",
     "section_name": {
       "about": "About me",
       "projects": "Latest Projects",
@@ -135,8 +135,8 @@
       "images": ["images/projects/blockSpecial.png"],
       "src": "",
       "technologies": [""],
-      "websiteLink":["https://www.coursera.org/specializations/blockchain"],
-      "gitLink":["https://github.com/danm-git/blockchain-basics"]
+      "websiteLink": ["https://www.coursera.org/specializations/blockchain"],
+      "gitLink": ["https://github.com/danm-git/blockchain-basics"]
     },
     {
       "title": "PROGRAMMING WITH GOOGLE GO SPECIALIZATION",
@@ -145,8 +145,10 @@
       "images": ["images/projects/GoLang.png"],
       "src": "",
       "technologies": [""],
-      "websiteLink":["https://www.coursera.org/specializations/google-golang#courses"],
-      "gitLink":["https://github.com/danm-git/GoLang-getting-started"]
+      "websiteLink": [
+        "https://www.coursera.org/specializations/google-golang#courses"
+      ],
+      "gitLink": ["https://github.com/danm-git/GoLang-getting-started"]
     },
     {
       "title": "TYPESCRIPT - LEARN THE FUNDAMENTALS",
@@ -155,8 +157,12 @@
       "images": ["images/projects/ts.png"],
       "src": "",
       "technologies": [""],
-      "websiteLink":["https://www.coursera.org/projects/rudi-hinds-typescript-learn-fundamentals"],
-      "gitLink":["https://github.com/danm-git/typescript-fundamentals/tree/master/typescript"]
+      "websiteLink": [
+        "https://www.coursera.org/projects/rudi-hinds-typescript-learn-fundamentals"
+      ],
+      "gitLink": [
+        "https://github.com/danm-git/typescript-fundamentals/tree/master/typescript"
+      ]
     },
     {
       "title": "CHAINLINK SMART CONTRACT DEVELOPER BOOTCAMP",
@@ -165,8 +171,8 @@
       "images": ["images/projects/chainlink-bootcamp-badge.png"],
       "src": "",
       "technologies": [""],
-      "websiteLink":["https://chain.link/bootcamp"],
-      "gitLink":["https://github.com/danm-git/chainlink-bootcamp-hardhat"]
+      "websiteLink": ["https://chain.link/bootcamp"],
+      "gitLink": ["https://github.com/danm-git/chainlink-bootcamp-hardhat"]
     },
     {
       "title": "ETHEREUM BLOCKCHAIN DEVELOPER BOOTCAMP WITH SOLIDITY (2021)",
@@ -175,8 +181,8 @@
       "images": ["images/projects/solid.png"],
       "src": "",
       "technologies": [""],
-      "websiteLink":["https://www.udemy.com/course/blockchain-developer/"],
-      "gitLink":["https://github.com/danm-git/solidity-bootcamp-udemy"]
+      "websiteLink": ["https://www.udemy.com/course/blockchain-developer/"],
+      "gitLink": ["https://github.com/danm-git/solidity-bootcamp-udemy"]
     },
     {
       "title": "CRYPTOZOMBIES - SOLIDITY",
@@ -185,8 +191,8 @@
       "images": ["images/projects/zombie.png"],
       "src": "",
       "technologies": [""],
-      "websiteLink":["https://cryptozombies.io/"],
-      "gitLink":[""]
+      "websiteLink": ["https://cryptozombies.io/"],
+      "gitLink": [""]
     },
     {
       "title": "SCALA - ROCK THE JVM",
@@ -195,8 +201,8 @@
       "images": ["images/projects/RockTheJVM.jpg"],
       "src": "",
       "technologies": [""],
-      "websiteLink":["https://rockthejvm.com/"],
-      "gitLink":["https://github.com/danm-git/jvm-advanced-scala"]
+      "websiteLink": ["https://rockthejvm.com/"],
+      "gitLink": ["https://github.com/danm-git/jvm-advanced-scala"]
     },
     {
       "title": "NATURAL LANGUAGE PROCESSING (NLP)",
@@ -205,8 +211,8 @@
       "images": ["images/projects/nlp.png"],
       "src": "",
       "technologies": [""],
-      "websiteLink":["https://www.coursera.org/learn/language-processing"],
-      "gitLink":["https://github.com/danm-git/natural-language-processing"]
+      "websiteLink": ["https://www.coursera.org/learn/language-processing"],
+      "gitLink": ["https://github.com/danm-git/natural-language-processing"]
     },
     {
       "title": "DEEP LEARNING A-Z AND ARTIFICIAL INTELLIGENCE A-Z",
@@ -215,8 +221,8 @@
       "images": ["images/projects/AI.jpg"],
       "src": "",
       "technologies": [""],
-      "websiteLink":["https://www.udemy.com/course/deeplearning/"],
-      "gitLink":["https://github.com/danm-git/deep-learning-classes"]
+      "websiteLink": ["https://www.udemy.com/course/deeplearning/"],
+      "gitLink": ["https://github.com/danm-git/deep-learning-classes"]
     },
     {
       "title": "MATHEMATICS FOR MACHINE LEARNING: LINEAR ALGEBRA",
@@ -225,8 +231,10 @@
       "images": ["images/projects/math_class.png"],
       "src": "",
       "technologies": [""],
-      "websiteLink":["https://www.coursera.org/learn/linear-algebra-machine-learning"],
-      "gitLink":[""]
+      "websiteLink": [
+        "https://www.coursera.org/learn/linear-algebra-machine-learning"
+      ],
+      "gitLink": [""]
     },
     {
       "title": "CHATBOT - DIALOGFLOW",
@@ -235,8 +243,8 @@
       "images": ["images/projects/chatbot.png"],
       "src": "",
       "technologies": [""],
-      "websiteLink":[""],
-      "gitLink":["https://github.com/danm-git/DialogflowReactbot"]
+      "websiteLink": [""],
+      "gitLink": ["https://github.com/danm-git/DialogflowReactbot"]
     },
     {
       "title": "BLAZOR BATTLES!",
@@ -245,8 +253,8 @@
       "images": ["images/projects/blazor.png"],
       "src": "",
       "technologies": [""],
-      "websiteLink":[""],
-      "gitLink":["https://github.com/danm-git/BlazorBattles"]
+      "websiteLink": [""],
+      "gitLink": ["https://github.com/danm-git/BlazorBattles"]
     }
   ]
 }

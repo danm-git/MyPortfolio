@@ -50,8 +50,13 @@ class Experience extends Component {
             >
               {work.title}
             </h3>
-            
-            <a className="workLink" target="_blank" rel="noopener noreferrer" href={work.link}>
+
+            <a
+              className="workLink"
+              target="_blank"
+              rel="noopener noreferrer"
+              href={work.link}
+            >
               <h4
                 className="vertical-timeline-element-subtitle"
                 style={{ textAlign: "left" }}
@@ -90,6 +95,18 @@ class Experience extends Component {
               }
             />
           </VerticalTimeline>
+          <div class="resume">
+            <h3 class="resume-heading">Download My Resume!</h3>
+            <a href="images/work/Daniel Munro Resume.pdf" download>
+              <img
+                src="images/work/resumeThumb_png.png"
+                alt="My Resume"
+                class="resume"
+                height="120px"
+                max-width="100px"
+              />
+            </a>
+          </div>
         </div>
       </section>
     );

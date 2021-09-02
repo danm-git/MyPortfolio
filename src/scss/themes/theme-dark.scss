@@ -53,8 +53,8 @@ body[data-theme="dark"] {
          background:  #6d6d6d;
       }
       .card {
-         background: #6d6d6d;
-         color: white;
+         // background: #6d6d6d;
+         // color: white;
       }
    }
 
@@ -64,13 +64,13 @@ body[data-theme="dark"] {
          color: white !important;
       }
       .foto div {
-         background: #6d6d6d;
+         // background: #6d6d6d;
       }
       .project-title-settings {
-         color: white;
+         // color: white;
       }
       .class-title-settings {
-         color: white;
+         // color: white;
       }
    }
 
@@ -80,10 +80,10 @@ body[data-theme="dark"] {
          color: white !important;
       }
       .foto div {
-         background: #6d6d6d;
+         // background: #6d6d6d;
       }
       .class-title-settings {
-         color: white;
+         // color: white;
       }
    }
 
@@ -124,5 +124,9 @@ body[data-theme="dark"] {
 
    .close-icon {
       color: white;
+   }
+
+   .resume-heading {
+      color:white !important;
    }
 }

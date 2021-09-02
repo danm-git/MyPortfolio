@@ -97,7 +97,11 @@ class Experience extends Component {
           </VerticalTimeline>
           <div class="resume">
             <h3 class="resume-heading">Download My Resume!</h3>
-            <a href="Daniel Munro Resume.pdf" download>
+            <a
+              href="https://resource-web.s3.us-east-2.amazonaws.com/Daniel+Munro+Resume.pdf"
+              target="_blank"
+              download
+            >
               <img
                 src="images/work/resumeThumb_png.png"
                 alt="My Resume"

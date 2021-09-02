@@ -4,9 +4,10 @@
       "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
       "section_name": {
         "about": "About me",
-        "projects": "Projects",
+        "projects": "Latest Projects",
         "skills": "Skills",
-        "experience": "Experience"
+        "experience": "Experience",
+        "classes": "Continuing Education"
       }
     },
     "projects": [

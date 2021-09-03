@@ -65,7 +65,6 @@ class Header extends Component {
               <img
                 src="images/Me/17.jpg"
                 className="MainImg"
-                height="500"
                 style={{
                   // marginBottom: 0,
                   paddingBottom: 0,

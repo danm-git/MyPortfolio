@@ -523,6 +523,7 @@ footer a:focus {
 .MainImg {
   border: 8px solid white;
   // margin-bottom: 5px;
+  height: 500px;
 }
 
 #portfolio {
@@ -588,8 +589,8 @@ footer a:focus {
 
 @media (max-width: 59em) {
   .MainImg {
-    width: 70%;
-    height: 70%;
+    height: auto;
+    width: 50%;
   }
 }
 
@@ -614,5 +615,14 @@ footer a:focus {
   .projContainer {
     height: 70%;
     width: 100%;
+  }
+
+  .MainImg {
+    height: auto;
+    width: 50%;
+  }
+
+  #home {
+    height: 100%;
   }
 }

@@ -6,36 +6,6 @@ import AwesomeSliderStyles2 from "../scss/dark-slider.scss";
 import "react-awesome-slider/dist/custom-animations/scale-out-animation.css";
 class PictureModal extends Component {
   render() {
-    if (this.props.data) {
-      const technologies = this.props.data.technologies;
-      const images = this.props.data.images;
-      var title = this.props.data.title;
-      var description = this.props.data.description;
-      var url = this.props.data.url;
-
-      if (this.props.data.technologies) {
-        var tech = technologies.map((icons, i) => {
-          return (
-            <li className="list-inline-item mx-3" key={i}>
-              <span>
-                <div className="text-center">
-                  <i className={icons.class} style={{ fontSize: "300%" }}>
-                    <p className="text-center" style={{ fontSize: "30%" }}>
-                      {icons.name}
-                    </p>
-                  </i>
-                </div>
-              </span>
-            </li>
-          );
-        });
-        if (this.props.data.images) {
-          var img = images.map((elem, i) => {
-            return <div key={i} data-src={elem} />;
-          });
-        }
-      }
-    }
     return (
       <Modal
         {...this.props}
@@ -74,66 +44,37 @@ class PictureModal extends Component {
               animation="scaleOutAnimation"
               className="slider-image"
             >
-              {img}
+              <div>
+                <img src="images/Me/6.jpg" class="hikeImg" alt="6" />
+              </div>
+              <div>
+                <img src="images/Me/4.jpg" class="hikeImg" alt="4" />
+              </div>
+              <div>
+                <img src="images/Me/13.jpg" class="hikeImg" alt="13" />
+              </div>
+              <div>
+                <img src="images/Me/14.jpg" class="hikeImg" alt="14" />
+              </div>
+              <div>
+                <img src="images/Me/15.jpg" class="hikeImg" alt="15" />
+              </div>
+              <div>
+                <img src="images/Me/16.jpg" class="hikeImg" alt="16" />
+              </div>
+              <div>
+                <img src="images/Me/17.jpg" class="hikeImg" alt="17" />
+              </div>
             </AwesomeSlider>
           </div>
-          <div className="col-md-10 mx-auto">
+          <div className="col-md-10 mx-auto hikePad">
             <h3 style={{ padding: "5px 5px 0 5px" }}>
-              {title}
-              {url ? (
-                <a
-                  href={url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="link-href"
-                >
-                  <i
-                    className="fas fa-external-link-alt"
-                    style={{ marginLeft: "10px" }}
-                  ></i>
-                </a>
-              ) : null}
+              <div>14ers</div>
             </h3>
-            <p className="modal-description">{description}</p>
-            {/* {!this.props.data.demo ? (
-              ""
-            ) : (
-              <a
-                className="projectDemo"
-                target="_blank"
-                rel="noopener noreferrer"
-                href={this.props.data.demo}
-              >
-                Demo This Code
-              </a>
-            )}
-            {!this.props.data.gitLink ? (
-              ""
-            ) : (
-              <a
-                className="projectGit"
-                target="_blank"
-                rel="noopener noreferrer"
-                href={this.props.data.gitLink}
-              >
-                GitHub Repo
-              </a>
-            )}
-            {!this.props.data.websiteLink ? (
-              ""
-            ) : (
-              <a
-                className="projectDemo"
-                target="_blank"
-                rel="noopener noreferrer"
-                href={this.props.data.websiteLink}
-              >
-                Website
-              </a>
-            )} */}
-            <div className="col-md-12 text-center">
-              <ul className="list-inline mx-auto">{tech}</ul>
-            </div>
+            <p className="modal-description">
+              Colorado has 58 mountains above 14,000 feet. These are known as
+              14ers. I have summited 23 and counting!
+            </p>
           </div>
         </div>
       </Modal>

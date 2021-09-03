@@ -6,9 +6,9 @@ import PictureModal from "./PictureModal";
 class Header extends Component {
   titles = [];
 
-  constructor() {
-    super();
-    this.state = { checked: false };
+  constructor(props) {
+    super(props);
+    this.state = { deps: {}, checked: false };
     this.state = { pictureModalShow: false };
     this.onThemeSwitchChange = this.onThemeSwitchChange.bind(this);
   }
@@ -27,11 +27,11 @@ class Header extends Component {
   }
 
   render() {
-    let pictureModalShow = (data) => {
-      this.setState({ pictureModalShow: true, deps: data });
+    let detailsModalShow = (data) => {
+      this.setState({ detailsModalShow: true, deps: data });
     };
 
-    let detailsModalClose = () => this.setState({ pictureModalShow: false });
+    let detailsModalClose = () => this.setState({ detailsModalShow: false });
     if (this.props.sharedData) {
       var name = this.props.sharedData.name;
       this.titles = this.props.sharedData.titles
@@ -71,12 +71,13 @@ class Header extends Component {
                   position: "relative",
                 }}
                 alt="Top of14er"
+                onClick={() => detailsModalShow()}
               />
-              {/* <PictureModal
-                show={pictureModalShow}
+              <PictureModal
+                show={this.state.detailsModalShow}
                 onHide={detailsModalClose}
                 data={this.state.deps}
-              /> */}
+              />
               <br />
               <br />
               <Switch

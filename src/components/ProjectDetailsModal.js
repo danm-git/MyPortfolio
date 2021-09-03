@@ -104,7 +104,7 @@ class ProjectDetailsModal extends Component {
                 rel="noopener noreferrer"
                 href={this.props.data.demo}
               >
-                Demo This Code
+                Demo
               </a>
             )}
             {!this.props.data.gitLink ? (

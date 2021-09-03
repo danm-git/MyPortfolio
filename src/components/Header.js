@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Typical from "react-typical";
 import Switch from "react-switch";
+import PictureModal from "./PictureModal";
 
 class Header extends Component {
   titles = [];
@@ -8,6 +9,7 @@ class Header extends Component {
   constructor() {
     super();
     this.state = { checked: false };
+    this.state = { pictureModalShow: false };
     this.onThemeSwitchChange = this.onThemeSwitchChange.bind(this);
   }
 
@@ -25,6 +27,11 @@ class Header extends Component {
   }
 
   render() {
+    let pictureModalShow = (data) => {
+      this.setState({ pictureModalShow: true, deps: data });
+    };
+
+    let detailsModalClose = () => this.setState({ pictureModalShow: false });
     if (this.props.sharedData) {
       var name = this.props.sharedData.name;
       this.titles = this.props.sharedData.titles
@@ -44,7 +51,7 @@ class Header extends Component {
     return (
       <header
         id="home"
-        style={{ height: window.innerHeight - 120, display: "block" }}
+        style={{ height: window.innerHeight - 10, display: "block" }}
       >
         <div className="row aligner" style={{ height: "100%" }}>
           <div className="col-md-12">
@@ -52,26 +59,27 @@ class Header extends Component {
               <h1 className="mb-0">
                 <Typical steps={[name]} wrapper="p" />
               </h1>
-            <div className="title-container">
-                <HeaderTitleTypeAnimation />             
+              <div className="title-container">
+                <HeaderTitleTypeAnimation />
               </div>
               <img
                 src="images/Me/17.jpg"
                 className="MainImg"
                 height="500"
                 style={{
-                  marginBottom: 0,
+                  // marginBottom: 0,
                   paddingBottom: 0,
                   position: "relative",
                 }}
                 alt="Top of14er"
               />
-              {/* <span
-                className="iconify header-icon"
-                data-icon="la:laptop-code"
-                data-inline="false"
-              ></span> */}
-              <br /><br />
+              {/* <PictureModal
+                show={pictureModalShow}
+                onHide={detailsModalClose}
+                data={this.state.deps}
+              /> */}
+              <br />
+              <br />
               <Switch
                 checked={this.state.checked}
                 onChange={this.onThemeSwitchChange}

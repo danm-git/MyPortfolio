@@ -72,8 +72,16 @@ class PictureModal extends Component {
               <div>14ers</div>
             </h3>
             <p className="modal-description">
-              Colorado has 58 mountains above 14,000 feet. These are known as
-              14ers. I have summited 23 and counting!
+              Colorado has
+              <a
+                href="https://www.google.com/maps/d/viewer?ie=UTF8&hl=en&msa=0&ll=38.688536%2C-106.52479&spn=3.687145%2C8.432007&t=p&z=8&mid=1K6oToycFKjjk257VHa7OcFbSLcI"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span> 58 </span>
+              </a>
+              mountains above 14,000 feet. These are known as 14ers. I have
+              summited 23 and counting!
             </p>
           </div>
         </div>

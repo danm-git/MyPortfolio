@@ -25,7 +25,6 @@ class About extends Component {
 
     let detailsModalClose = () => this.setState({ detailsModalShow: false });
     if (this.props.sharedData) {
-      var name = this.props.sharedData.name;
       this.titles = this.props.sharedData.titles
         .map((x) => [x.toUpperCase(), 1500])
         .flat();

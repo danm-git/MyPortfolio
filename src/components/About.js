@@ -15,8 +15,8 @@ class About extends Component {
     if (this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.about;
       var hello = this.props.resumeBasicInfo.description_header;
-      var about = this.props.resumeBasicInfo.description;
-      var newText = about.split("\n").map((str) => <p>{str}</p>);
+      // var about = this.props.resumeBasicInfo.description;
+      // var newText = about.split("\n").map((str) => <p>{str}</p>);
     }
 
     let detailsModalShow = (data) => {
@@ -90,7 +90,35 @@ class About extends Component {
                     {hello}
                     <br />
                     <br />
-                    {newText}
+                    <div class="AboutMe">
+                      I love hiking, traveling, skateboarding, snowboarding,
+                      running, but mostly spending time with my family and
+                      friends. I was born in <span>Boulder, Colorado</span>, and
+                      grew up just outside in the town of{" "}
+                      <span>Broomfield</span>. I attended
+                      <span> Colorado State University</span>, where I met my
+                      future wife, Linnia. {"\n"} {"\n"} After college, Linnia
+                      and I moved to
+                      <span> Portland, OR</span>, and 2 years later, she started
+                      Veterinary school at <span>Oregon State University</span>.
+                      We spent 2 years in
+                      <span> Salem, OR</span>, followed by 2 years in{" "}
+                      <span>Corvallis, OR</span>, where Linnia became a{" "}
+                      <span>veterinarian</span>! {"\n"}
+                      {"\n"} After graduation, we decided to live in{" "}
+                      <span>New York City</span> and travel the world. We found
+                      a small apartment on the <span> Upper West Side</span> of
+                      Manhattan, and in the end, we stayed for 5 fun-filled
+                      years. {"\n"}
+                      {"\n"} We then decided to start a family. We moved out to
+                      <span> Huntington, Long Island</span>, for 1 year before
+                      moving back to Colorado to be closer to grandparents. We
+                      settled in a house north of <span> Denver</span> and now
+                      have 2 young, energetic boys, a dog named{" "}
+                      <span> Yeppi Queso</span>, and a steady stream of foster
+                      kittens and dogs. {"\n"}
+                      {"\n"}
+                    </div>
                   </div>
                 </div>
               </div>

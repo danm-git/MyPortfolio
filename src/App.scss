@@ -562,6 +562,7 @@ footer a:focus {
 .AboutMe {
   font-size: 15px;
   font-weight: 400;
+  white-space: pre-line;
 }
 
 .resume {
@@ -665,4 +666,13 @@ footer a:focus {
 .hikeImgTall {
   height: 60%;
   width: 60%;
+}
+
+.AboutMe span {
+  color: #cf711f;
+  font-weight: 700;
+}
+
+.new-line {
+  white-space: pre-line;
 }

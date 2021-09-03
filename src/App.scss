@@ -587,7 +587,7 @@ footer a:focus {
 /* BELOW 944px (Tablets) */
 /**************************/
 
-@media (max-width: 59em) {
+@media (max-width: 944px) {
   .MainImg {
     height: auto;
     width: 50%;
@@ -602,7 +602,7 @@ footer a:focus {
   margin-bottom: 3rem;
 }
 
-@media (max-width: 34em) {
+@media (max-width: 544px) {
   .project-screen {
     padding: 0px;
   }

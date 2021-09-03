@@ -1,6 +1,13 @@
 import React, { Component } from "react";
+import AboutMeModal from "./AboutMeModal";
 
 class About extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { deps: {}, checked: false };
+    this.state = { detailsModalShow: false };
+  }
+
   render() {
     if (this.props.sharedBasicInfo) {
       var profilepic = "images/" + this.props.sharedBasicInfo.image;
@@ -12,6 +19,18 @@ class About extends Component {
       var newText = about.split("\n").map((str) => <p>{str}</p>);
     }
 
+    let detailsModalShow = (data) => {
+      this.setState({ detailsModalShow: true, deps: data });
+    };
+
+    let detailsModalClose = () => this.setState({ detailsModalShow: false });
+    if (this.props.sharedData) {
+      var name = this.props.sharedData.name;
+      this.titles = this.props.sharedData.titles
+        .map((x) => [x.toUpperCase(), 1500])
+        .flat();
+    }
+
     return (
       <section id="about">
         <div className="col-md-12">
@@ -21,15 +40,21 @@ class About extends Component {
           <div className="row center mx-auto mb-5">
             <div className="col-md-4 mb-5 center">
               <div className="polaroidAbout">
-                <span style={{ cursor: "auto" }}>
+                <span style={{ cursor: "auto" }} class="AboutMeImg">
                   <img
                     height="500px"
                     width="380px"
                     src={profilepic}
                     alt="Avatar placeholder"
+                    onClick={() => detailsModalShow()}
                   />
                 </span>
               </div>
+              <AboutMeModal
+                show={this.state.detailsModalShow}
+                onHide={detailsModalClose}
+                data={this.state.deps}
+              />
             </div>
 
             <div className="col-md-8 center">

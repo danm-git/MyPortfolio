@@ -650,3 +650,19 @@ footer a:focus {
 .hikePad {
   padding-bottom: 20px;
 }
+
+.AboutMeImg:hover {
+  -webkit-transform: scale(1.01);
+  -moz-transform: scale(1.01);
+  transform: scale(1.01);
+  z-index: 10;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+  cursor: pointer !important;
+}
+
+.hikeImgTall {
+  height: 60%;
+  width: 60%;
+}

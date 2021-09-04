@@ -8,6 +8,7 @@ import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Classes from "./components/Classes";
+import TagManager from "react-gtm-module";
 
 class App extends Component {
   constructor(props) {
@@ -80,6 +81,12 @@ class App extends Component {
   }
 
   render() {
+    const tagManagerArgs = {
+      gtmId: "G-FPRE7V74C7",
+    };
+
+    TagManager.initialize(tagManagerArgs);
+
     return (
       <div>
         <Header sharedData={this.state.sharedData.basic_info} />

@@ -39,7 +39,7 @@ class About extends Component {
           <div className="row center mx-auto mb-5">
             <div className="col-md-4 mb-5 center">
               <div className="polaroidAbout">
-                <span style={{ cursor: "auto" }} class="AboutMeImg">
+                <span style={{ cursor: "auto" }} className="AboutMeImg">
                   <img
                     height="500px"
                     width="380px"
@@ -86,11 +86,11 @@ class About extends Component {
                       lineHeight: "150%",
                     }}
                   >
-                    <div class="AboutMe"></div>
+                    <div className="AboutMe"></div>
                     {hello}
                     <br />
                     <br />
-                    <div class="AboutMe">
+                    <div className="AboutMe">
                       I love hiking, traveling, skateboarding, snowboarding,
                       running, but mostly spending time with my family and
                       friends. I was born in <span>Boulder, Colorado</span>, and

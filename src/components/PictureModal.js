@@ -45,25 +45,25 @@ class PictureModal extends Component {
               className="slider-image"
             >
               <div>
-                <img src="images/Me/6.jpg" class="hikeImg" alt="6" />
+                <img src="images/Me/6.jpg" className="hikeImg" alt="6" />
               </div>
               <div>
-                <img src="images/Me/4.jpg" class="hikeImg" alt="4" />
+                <img src="images/Me/4.jpg" className="hikeImg" alt="4" />
               </div>
               <div>
-                <img src="images/Me/13.jpg" class="hikeImg" alt="13" />
+                <img src="images/Me/13.jpg" className="hikeImg" alt="13" />
               </div>
               <div>
-                <img src="images/Me/14.jpg" class="hikeImg" alt="14" />
+                <img src="images/Me/14.jpg" className="hikeImg" alt="14" />
               </div>
               <div>
-                <img src="images/Me/15.jpg" class="hikeImg" alt="15" />
+                <img src="images/Me/15.jpg" className="hikeImg" alt="15" />
               </div>
               <div>
-                <img src="images/Me/16.jpg" class="hikeImg" alt="16" />
+                <img src="images/Me/16.jpg" className="hikeImg" alt="16" />
               </div>
               <div>
-                <img src="images/Me/17.jpg" class="hikeImg" alt="17" />
+                <img src="images/Me/17.jpg" className="hikeImg" alt="17" />
               </div>
             </AwesomeSlider>
           </div>

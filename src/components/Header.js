@@ -8,8 +8,9 @@ class Header extends Component {
 
   constructor(props) {
     super(props);
-    this.state = { deps: {}, checked: false };
-    this.state = { pictureModalShow: false };
+    // this.state = { deps: {} };
+    // this.state = { checked: false };
+    this.state = { deps: {}, checked: false, pictureModalShow: false };
     this.onThemeSwitchChange = this.onThemeSwitchChange.bind(this);
   }
 

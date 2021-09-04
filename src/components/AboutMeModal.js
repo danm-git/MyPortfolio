@@ -47,7 +47,7 @@ class AboutMeModal extends Component {
               <div>
                 <img
                   src="images/Me/12.jpg"
-                  class="hikeImgTall"
+                  className="hikeImgTall"
                   alt="12"
                   title="San Diego Beach"
                 />
@@ -55,7 +55,7 @@ class AboutMeModal extends Component {
               <div>
                 <img
                   src="images/Me/18.jpg"
-                  class="hikeImgTall"
+                  className="hikeImgTall"
                   alt="16"
                   title="Vail, CO Fishing"
                 />
@@ -63,7 +63,7 @@ class AboutMeModal extends Component {
               <div>
                 <img
                   src="images/Me/33_png.png"
-                  class="hikeImgTall"
+                  className="hikeImgTall"
                   alt="33"
                   title="Inca Trail"
                 />
@@ -71,7 +71,7 @@ class AboutMeModal extends Component {
               <div>
                 <img
                   src="images/Me/9.jpg"
-                  class="hikeImg"
+                  className="hikeImg"
                   alt="13"
                   title="Thailand"
                 />
@@ -79,7 +79,7 @@ class AboutMeModal extends Component {
               <div>
                 <img
                   src="images/Me/11.jpg"
-                  class="hikeImg"
+                  className="hikeImg"
                   alt="14"
                   title="Machu Picchu"
                 />
@@ -87,7 +87,7 @@ class AboutMeModal extends Component {
               <div>
                 <img
                   src="images/Me/7.jpg"
-                  class="hikeImg"
+                  className="hikeImg"
                   alt="15"
                   title="South Africa - Kruger National Park"
                 />
@@ -95,7 +95,7 @@ class AboutMeModal extends Component {
               <div>
                 <img
                   src="images/Me/20_png.png"
-                  class="hikeImg"
+                  className="hikeImg"
                   alt="17"
                   title="Athens, Greece"
                 />
@@ -103,7 +103,7 @@ class AboutMeModal extends Component {
               <div>
                 <img
                   src="images/Me/21_png.png"
-                  class="hikeImg"
+                  className="hikeImg"
                   alt="17"
                   title="Santorini, Greece"
                 />
@@ -111,7 +111,7 @@ class AboutMeModal extends Component {
               <div>
                 <img
                   src="images/Me/30.jpg"
-                  class="hikeImg"
+                  className="hikeImg"
                   alt="17"
                   title="Inca Trail"
                 />
@@ -119,7 +119,7 @@ class AboutMeModal extends Component {
               <div>
                 <img
                   src="images/Me/32.jpg"
-                  class="hikeImg"
+                  className="hikeImg"
                   alt="17"
                   title="Biking in Ireland"
                 />

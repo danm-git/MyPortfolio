@@ -14,12 +14,12 @@
     {
       "title": "Blockchain",
       "startDate": "2021",
-      "description": "This is a sandbox I am using to learn Blockchain.  So far I have created a DAN Token and faucet, and the start of a smart ticketing app!  This is deployed against the Ropsten Test Network if you want to try it out.",
+      "description": "This is a sandbox I am using to learn Blockchain and play around with various prototypes.  Content should be changing daily.  Check it out and let me know what you think!",
       "images": ["images/Blockchain/F1large.jpg"],
       "src": "",
       "technologies": [""],
       "gitLink": ["https://github.com/danm-git/TicketBlock"],
-      "demo": ["https://sandbox.blockc.xyz/"]
+      "demo": ["https://sandbox.blockc.xyz/about"]
     }
   ],
   "experience": [
